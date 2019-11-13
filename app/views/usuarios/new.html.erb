@@ -1,0 +1,6 @@
+<!--h2> Formulario de Registro </h2-->
+<%= render :partial => "formulario_guardar_usuarios.html" %>
+<!-- Muestra los mensajes redirigidos por otra página si los hay -->
+<% flash.each do |key, value| %>
+   <p> <%= value %> </p>
+<% end %>

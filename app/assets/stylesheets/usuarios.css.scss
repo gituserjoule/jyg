@@ -1,0 +1,51 @@
+// Place all the styles related to the Usuarios controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#contenedor {
+   background-color: #FF8000;
+   width: 900px;
+   margin: 0px auto 0px auto;
+   padding: 10px;
+   border: solid 1px #ccc;
+   box-shadow: 1px 1px 5px #000;
+   -moz-box-shadow: 1px 1px 5px #000;
+   -webkit-box-shadow: 1px 1px 5px #000;
+}
+header {
+   text-align: center;
+   color: #FFF
+}   
+
+
+
+nav h3 {
+   background-color: #000;
+   width: 500px;
+   margin: 0px auto 0px auto;
+   padding: 10px;
+   border: solid 1px #FFF;
+   text-align: center;
+   color: #FFF;	
+}   
+
+#registro {
+   background-color: #088A08;
+   width: 900px;
+   margin: 0px auto 0px auto;
+   padding: 10px;
+   border: solid 1px #ccc;
+   box-shadow: 1px 1px 5px #000;
+   -moz-box-shadow: 1px 1px 5px #000;
+   -webkit-box-shadow: 1px 1px 5px #000;
+}
+
+nav h2 {
+   text-align: center;
+   color: #FFF
+}
+
+.field{
+   background-color: #000000
+}

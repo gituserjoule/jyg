@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>web</title></head><body style="width: 996px;"><img style="width: 1000px; height: 54px;" alt="" src="http://0.0.0.0:3000/cuadrop.png"> <br>
+<table style="text-align: left; height: 22px; margin-left: 134px; width: 517px;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(51, 204, 0); color: white;"><a href="http://0.0.0.0:3000"><span style="color: white; font-weight: bold;">Inicio</span><br>
+      </a>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(51, 204, 0); color: white;"><a href="http://0.0.0.0:3000/suenos/index"><span style="color: white; font-weight: bold;">Sueños</span><br>
+      </a>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(51, 204, 0); color: white;"><a href="http://0.0.0.0:3000/animales/index"><span style="font-weight: bold; color: white;">Animales</span><br>
+      </a>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(51, 204, 0); color: white;"><a href="http://0.0.0.0:3000/oficios/index"><span style="font-weight: bold; color: white;">Oficios</span><br>
+      </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<a href="http://0.0.0.0:3000/usuarios/new">
+<img style="width: 100px; height: 100px;" alt="" src="http://0.0.0.0:3000/rgratis1.png"></a>&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img style="width: 400px; height: 40px;" alt="" src="http://0.0.0.0:3000/FdReggris.png"><br>
+
+</head>
+<body>
+<div>
+
+<% @constante = "+549"; %>
+
+<!--%= form_tag({:controller => "formulario", :action => "post"}, :method => "post") do %-->
+
+<%= form_for @usuarios do |f| %>
+   <p>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= f.label :apellido, "Nombre de Usuario  :" %>
+
+      <!--<%= f.text_field :apellido, {:value => @apellido} %>-->
+      <%= f.text_field :apellido, :value => @apellido , :required => "required" , style: 'border:2px solid #BDBDBD'%>
+
+   </p>
+   <br />
+   <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= f.label :nombre, "email :" %>
+
+      <%= f.text_field :nombre, :value => @nombre , :required => "required" , style: 'border:2px solid #BDBDBD' %>
+   </p>
+   <br />
+   <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= f.label :cel, "Celular :" %>
+
+      <%= f.text_field :cel, :value => @celular , :required => "required" , style: 'border:2px solid #BDBDBD' %>
+   </p>
+  
+   <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <div class="g-recaptcha" data-sitekey="6LfSX1EUAAAAAPb9JRSnSJ2xs46wOjmFkTsmfghJ"></div>
+   <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ingrese su número de celular con código de área. Ej: 1199045648
+   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Atención - Asegúrese de ingresar de manera correcta sus datos de email y celular, de lo contrario no podrá recibir información. </p>
+   <p><br />
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <%= f.submit "Enviar" %> <!--%= link_to "Cancelar", usuarios_path %-->
+   </p>
+
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+</div>
+</body>
+</html>
+<%end%>
+<script src='https://www.google.com/recaptcha/api.js'></script>

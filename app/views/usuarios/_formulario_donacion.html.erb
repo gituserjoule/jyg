@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>web</title></head><body style="width: 996px;"><img style="width: 1000px; height: 54px;" alt="" src="http://0.0.0.0:3000/cuadro.png"> <br>
+<table style="text-align: left; height: 22px; margin-left: 134px; width: 517px;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 102, 0); color: white;">Nombres<br>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 102, 0); color: white;">Sueños<br>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 102, 0); color: white;">Animales<br>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 102, 0); color: white;">Oficios<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<img style="width: 100px; height: 100px;" alt="" src="http://0.0.0.0:3000/rgratis1.png">&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img style="width: 400px; height: 40px;" alt="" src="http://0.0.0.0:3000/FdReggris.png"><br>
+
+</head>
+
+<body>
+
+</body>
+</html>
+<%end%>
+
+
+
+
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+</head>
+<body>
+<div id="contenedor">
+   <header>
+      <h2> Formulario de Donación </h2>
+   </header>
+<nav>
+<%= form_for @usuarios do |f| %>
+   <p>
+      <%= f.label :cel, "Celular" %>
+      <%= f.text_field :cel, {:value => @celular} %>
+   </p>
+   <p> Ingrese su número de celular con código de área. Ej: 1199045648 </p>
+   <p> <%= f.submit "Enviar" %> </p>
+</nav>
+
+</div>
+
+</body>
+</html>
+<%end%>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>web</title></head><body style="width: 996px;"><img style="width: 1000px; height: 54px;" alt="" src="http://0.0.0.0:3000/cuadrop.png"> <br>
+<table style="text-align: left; height: 22px; margin-left: 134px; width: 517px;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(51, 204, 0); color: white;"><a href="http://0.0.0.0:3000"><span style="color: white; font-weight: bold;">Inicio</span><br>
+      </a>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(51, 204, 0); color: white;"><a href="http://0.0.0.0:3000/suenos/index"><span style="color: white; font-weight: bold;">Sueños</span><br>
+      </a>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(51, 204, 0); color: white;"><a href="http://0.0.0.0:3000/animales/index"><span style="font-weight: bold; color: white;">Animales</span><br>
+      </a>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(51, 204, 0); color: white;"><a href="http://0.0.0.0:3000/oficios/index"><span style="font-weight: bold; color: white;">Oficios</span><br>
+      </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<a href="http://0.0.0.0:3000/usuarios/new">
+<img style="width: 100px; height: 100px;" alt="" src="http://0.0.0.0:3000/rgratis1.png"></a>&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img style="width: 400px; height: 40px;" alt="" src="http://0.0.0.0:3000/Fddon.png"><br>
+
+</head>
+
+<body>
+<div>
+
+	<nav>
+	<%= form_tag({:controller => "formulario", :action => "post"}, :method => "post") do %>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= label_tag "celular", "Celular :" %>
+
+	<%= text_field_tag "celular", "", :required => "required" , style: 'border:2px solid #BDBDBD' %>
+  <br>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= label_tag "apellido", "Código de Pago :" %>
+
+  <%= text_field_tag "apellido", "", :required => "required" , style: 'border:2px solid #BDBDBD' %>
+
+  <br />
+	<br />
+	<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ingrese su número de celular con el cual está registrado en Jugá y Ganá, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y el Código de Pago emitido por el sistema MercadoPago.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ej:&nbsp; 119904564 &nbsp;|&nbsp; 25987457</p>
+
+	<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <%= submit_tag "Enviar" %>
+	</nav>
+
+
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+</div>
+</body>
+</html>
+<%end%>

@@ -1,0 +1,43 @@
+<!--h2> Usuarios Registrados </h2-->
+  
+<ul>
+
+   <% @usuarios.each do |t| %>
+   <li>
+      <h3> <%= t.apellido %> <%= t.nombre %> <%= t.cel %> <%= t.activo %> <%= t.created_at %> <%= t.updated_at %> </h3>
+      <p>
+         <span> Ver </span>
+         |
+         <span> Modificar </span>
+         |
+         <%= link_to "Eliminar", t, :confirm => "Seguro desea eliminar este usuario?", :method => :delete %>
+      </p>
+   </li>
+   <% end %>
+</ul>
+
+<DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<div id="registro">
+   <header>
+
+      <h2> Formulario de Registro </h2>
+
+   </header>
+
+<!--%= form_tag({:controller => "formulario", :action => "post"}, :method => "post") do %-->
+   <nav>
+      <h2> Felicidades !!! </h2>
+      <h2> Usted fué registrado con éxito </h2> 
+      
+      <p>
+          Comience a disfrutar los beneficios de Jugá y Ganá y conviértase desde hoy en un ganador <a href="http://0.0.0.0:3000/">Continuar</a>
+      </p>
+   </nav>   
+</div>   
+</body>
+</html>
