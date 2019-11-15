@@ -1,0 +1,129 @@
+Logging in build 2017.0.0.149 started at: Mon Mar  6 00:29:47 2017
+========================================
+
+==========
+Logging ended at: Mon Mar  6 00:30:08 2017
+
+Logging in build 2017.0.0.149 started at: Mon Mar  6 00:31:05 2017
+========================================
+
+==========
+Logging ended at: Mon Mar  6 00:31:06 2017
+
+Logging in build 2017.0.0.149 started at: Mon Mar  6 00:31:16 2017
+========================================
+[00:00:16.984] 00:31:33.374 | Error - IMS : No AdobeID signed in
+[03:10:31.234] 03:41:47.625 | quitWithUI:Quitting Application. Called by: 
+[03:10:31.281] 03:41:47.639 | Quitting Application after 190.4 minutes. Called by: 
+[03:10:37.062] Logging shutdown normally
+
+==========
+Logging ended at: Mon Mar  6 03:41:53 2017
+
+Logging in build 2017.0.0.149 started at: Mon Mar  6 03:47:30 2017
+========================================
+[00:00:13.406] 03:47:44.527 | Error - IMS : IMSLib not loaded
+[00:00:43.563] 03:48:14.688 | quitWithUI:Quitting Application. Called by: 
+[00:00:43.563] 03:48:14.688 | Quitting Application after 0.6 minutes. Called by: 
+[00:00:48.500] Logging shutdown normally
+
+==========
+Logging ended at: Mon Mar  6 03:48:19 2017
+
+Logging in build 2017.0.0.149 started at: Wed Mar  8 09:27:29 2017
+========================================
+[00:00:16.250] 09:27:48.505 | Error - IMS : IMSLib not loaded
+[00:18:58.234] 09:46:30.493 | Beginning SaveAs of 'Sitio Web-1' to file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:102
+[00:18:59.984] 09:46:32.243 | SaveAs complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:458752 mod Date:Wed Mar 8 09:46:32 GMT-0300 2017 highest UID:102
+[00:34:55.984] 10:02:28.252 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:120
+[00:34:56.953] 10:02:29.217 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:458752 mod Date:Wed Mar 8 10:02:28 GMT-0300 2017 highest UID:120
+[00:49:57.078] 10:17:29.347 | quitWithUI:Quitting Application. Called by: 
+[00:49:58.906] 10:17:31.179 | Quitting Application after 49.8 minutes. Called by: 
+[00:50:05.546] Logging shutdown normally
+
+==========
+Logging ended at: Wed Mar  8 10:17:38 2017
+
+Logging in build 2017.0.0.149 started at: Thu Mar  9 09:29:26 2017
+========================================
+[00:00:11.297] 09:29:39.632 | Error - IMS : IMSLib not loaded
+[00:00:45.500] 09:30:13.832 | Trying to open file 'C:\Users\gabriel\Documents\registrado.muse with size:458752 mod Date:Wed Mar 8 10:02:28 GMT-0300 2017
+[00:00:45.516] 09:30:13.846 | Opening file 'C:\Users\gabriel\Documents\registrado.muse' with status:success size:458752 mod Date:Wed Mar 8 10:02:28 GMT-0300 2017 highestUID: 120
+[00:29:00.594] 09:58:28.928 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:124
+[00:29:01.688] 09:58:30.017 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:491520 mod Date:Thu Mar 9 09:58:29 GMT-0300 2017 highest UID:124
+[00:35:43.688] 10:05:12.009 | Already creating a thumbnail for PI:ParameterizedHTMLPageItem U127. May not be a problem.
+[00:39:11.031] 10:08:39.354 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:129
+[00:39:11.984] 10:08:40.310 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:491520 mod Date:Thu Mar 9 10:08:39 GMT-0300 2017 highest UID:129
+[00:39:12.797] 10:08:41.132 | quitWithUI:Quitting Application. Called by: 
+[00:39:14.188] 10:08:42.510 | Quitting Application after 39.1 minutes. Called by: 
+[00:39:21.344] Logging shutdown normally
+
+==========
+Logging ended at: Thu Mar  9 10:08:50 2017
+
+Logging in build 2017.0.0.149 started at: Sat Mar 11 16:34:58 2017
+========================================
+[00:00:20.625] 16:35:21.063 | Error - IMS : IMSLib not loaded
+[00:00:52.829] 16:35:53.273 | Trying to open file 'C:\Users\gabriel\Documents\registrado.muse with size:491520 mod Date:Thu Mar 9 10:08:39 GMT-0300 2017
+[00:00:52.844] 16:35:53.288 | Opening file 'C:\Users\gabriel\Documents\registrado.muse' with status:success size:491520 mod Date:Thu Mar 9 10:08:39 GMT-0300 2017 highestUID: 129
+[00:07:28.469] 16:42:28.909 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:139
+[00:07:29.407] 16:42:29.846 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:557056 mod Date:Sat Mar 11 16:42:29 GMT-0300 2017 highest UID:139
+[00:11:56.250] 16:46:56.689 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:149
+[00:11:57.188] 16:46:57.627 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:688128 mod Date:Sat Mar 11 16:46:57 GMT-0300 2017 highest UID:149
+[00:21:09.719] 16:56:10.161 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:155
+[00:21:10.625] 16:56:11.068 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:688128 mod Date:Sat Mar 11 16:56:10 GMT-0300 2017 highest UID:155
+[00:31:21.329] 17:06:21.763 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:165
+[00:31:22.219] 17:06:22.663 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:753664 mod Date:Sat Mar 11 17:06:22 GMT-0300 2017 highest UID:165
+[00:49:38.907] 17:24:39.342 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:175
+[00:49:39.782] 17:24:40.217 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:753664 mod Date:Sat Mar 11 17:24:39 GMT-0300 2017 highest UID:175
+[00:51:49.829] 17:26:50.272 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:175
+[00:51:50.750] 17:26:51.181 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:753664 mod Date:Sat Mar 11 17:26:50 GMT-0300 2017 highest UID:175
+[00:56:56.907] 17:31:57.347 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:175
+[00:56:57.782] 17:31:58.213 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:753664 mod Date:Sat Mar 11 17:31:57 GMT-0300 2017 highest UID:175
+[00:57:20.813] 17:32:21.244 | quitWithUI:Quitting Application. Called by: 
+[00:57:22.625] 17:32:23.063 | Quitting Application after 57.1 minutes. Called by: 
+[00:57:29.641] Logging shutdown normally
+
+==========
+Logging ended at: Sat Mar 11 17:32:30 2017
+
+Logging in build 2017.0.0.149 started at: Tue Mar 14 09:47:41 2017
+========================================
+[00:00:17.344] 09:48:02.129 | Error - IMS : IMSLib not loaded
+[00:00:51.563] 09:48:36.344 | Trying to open file 'C:\Users\gabriel\Documents\registrado.muse with size:753664 mod Date:Sat Mar 11 17:31:57 GMT-0300 2017
+[00:00:51.578] 09:48:36.359 | Opening file 'C:\Users\gabriel\Documents\registrado.muse' with status:success size:753664 mod Date:Sat Mar 11 17:31:57 GMT-0300 2017 highestUID: 175
+[00:09:21.860] 09:57:06.632 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:178
+[00:09:22.735] 09:57:07.507 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:786432 mod Date:Tue Mar 14 09:57:07 GMT-0300 2017 highest UID:178
+[00:26:57.297] 10:14:42.074 | quitWithUI:Quitting Application. Called by: 
+[00:27:12.219] 10:14:56.995 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:178
+[00:27:13.235] 10:14:58.011 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:819200 mod Date:Tue Mar 14 10:14:57 GMT-0300 2017 highest UID:178
+[00:27:14.719] 10:14:59.491 | Quitting Application after 27.1 minutes. Called by: 
+[00:27:20.938] Logging shutdown normally
+
+==========
+Logging ended at: Tue Mar 14 10:15:05 2017
+
+Logging in build 2017.0.0.149 started at: Tue Mar 14 12:06:36 2017
+========================================
+[00:00:18.812] 12:06:58.599 | Error - IMS : IMSLib not loaded
+[00:01:02.812] 12:07:42.601 | Trying to open file 'C:\Users\gabriel\Documents\registrado.muse with size:819200 mod Date:Tue Mar 14 10:14:57 GMT-0300 2017
+[00:01:02.812] 12:07:42.614 | Opening file 'C:\Users\gabriel\Documents\registrado.muse' with status:success size:819200 mod Date:Tue Mar 14 10:14:57 GMT-0300 2017 highestUID: 178
+[00:28:42.578] 12:35:22.379 | HTMLExport registrado(1 pages) to 'registro1.com' completed with 0 warnings.
+[00:31:40.281] 12:38:20.077 | quitWithUI:Quitting Application. Called by: 
+[00:31:42.641] 12:38:22.436 | Beginning Save for file 'C:\Users\gabriel\Documents\registrado.muse' highest UID:188
+[00:31:43.562] 12:38:23.364 | Save complete for file 'C:\Users\gabriel\Documents\registrado.muse' file size:819200 mod Date:Tue Mar 14 12:38:22 GMT-0300 2017 highest UID:188
+[00:31:44.859] 12:38:24.652 | Quitting Application after 31.5 minutes. Called by: 
+[00:31:50.719] Logging shutdown normally
+
+==========
+Logging ended at: Tue Mar 14 12:38:30 2017
+
+Logging in build 2017.0.0.149 started at: Tue Mar 14 15:41:12 2017
+========================================
+[00:00:18.578] 15:41:33.275 | Error - IMS : IMSLib not loaded
+[00:01:28.281] 15:42:42.982 | Trying to open file 'C:\Users\gabriel\Documents\registrado.muse with size:819200 mod Date:Tue Mar 14 12:38:22 GMT-0300 2017
+[00:01:28.297] 15:42:43.000 | Opening file 'C:\Users\gabriel\Documents\registrado.muse' with status:success size:819200 mod Date:Tue Mar 14 12:38:22 GMT-0300 2017 highestUID: 188
+[00:11:23.891] 15:52:38.588 | HTMLExport registrado(1 pages) to 'registro1.com' completed with 0 warnings.
+[00:12:25.156] 15:53:39.856 | HTMLExport registrado(1 pages) to 'registro1.com' completed with 0 warnings.
+[00:13:16.453] 15:54:31.150 | HTMLExport registrado(1 pages) to 'registro1.com' completed with 0 warnings.
+[00:14:29.328] 15:55:44.025 | HTMLExport registrado(1 pages) to 'registro1.com' completed with 0 warnings.
