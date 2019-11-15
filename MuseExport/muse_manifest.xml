@@ -1,0 +1,24 @@
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="registro1.com" resolutions="1x" timestamp="1489517743932">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="18752719" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="163421577" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="168988563" ref="index"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index"/>
+    <file name="require.js" crc="244322403" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u121-4.png" crc="3924143121" ref="index"/>
+    <file name="$1.jpg" crc="4289350618" seo="true" ref="index"/>
+    <file name="u150-4.png" crc="322461125" ref="index"/>
+    <file name="u166-10.png" crc="3824892807" ref="index"/>
+    <file name="u176-4.png" crc="366749964" ref="index"/>
+    <file name="u173-4.png" crc="4078383613" ref="index"/>
+    <file name="$$.jpg" crc="4015876613" seo="true" ref="index"/>
+  </folder>
+  <file name="index.html" crc="361930087" seo="true" mt="1489517725135" redirect="true"/>
+</manifest>
